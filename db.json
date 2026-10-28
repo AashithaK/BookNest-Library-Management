@@ -1,0 +1,119 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "Java Programming",
+      "author": "Herbert Schildt",
+      "isbn": "9780000000001",
+      "category": "Programming",
+      "status": "Available"
+    },
+    {
+      "id": "2",
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "isbn": "9780000000002",
+      "category": "Software Engineering",
+      "status": "Available"
+    },
+    {
+      "id": "3",
+      "title": "Introduction to Algorithms",
+      "author": "Thomas H. Cormen",
+      "isbn": "9780262033848",
+      "category": "Computer Science",
+      "status": "Available"
+    },
+    {
+      "id": "4",
+      "title": "Artificial Intelligence: A Modern Approach",
+      "author": "Stuart Russell",
+      "isbn": "9780136042594",
+      "category": "Artificial Intelligence",
+      "status": "Available"
+    },
+    {
+      "id": "5",
+      "title": "Database System Concepts",
+      "author": "Abraham Silberschatz",
+      "isbn": "9780073523323",
+      "category": "Databases",
+      "status": "Available"
+    },
+    {
+      "title": "Python Programming",
+      "author": "Eric Matthes",
+      "isbn": "9780234567821",
+      "category": "Computer Science",
+      "status": "Available",
+      "id": "NIeaI4-VHiM"
+    }
+  ],
+  "members": [
+    {
+      "id": "1",
+      "name": "Ishan kishan",
+      "email": "ishan@example.com",
+      "phone": "9876543210",
+      "membershipDate": "2026-10-01"
+    },
+    {
+      "id": "2",
+      "name": "Rohan Sharma",
+      "email": "rohan.sharma@example.com",
+      "phone": "9812345678",
+      "membershipDate": "2026-10-15"
+    },
+    {
+      "id": "3",
+      "name": "Priya Verma",
+      "email": "priya.v@example.com",
+      "phone": "9898765432",
+      "membershipDate": "2026-10-20"
+    },
+    {
+      "name": "Kethan sharma",
+      "email": "kethans@university.edu",
+      "phone": "2354255632",
+      "membershipDate": "2026-10-26",
+      "id": "s53-jbWfZ8E"
+    },
+    {
+      "name": "Aashitha K",
+      "email": "aashithak@university.edu",
+      "phone": "9324219467",
+      "membershipDate": "2026-10-25",
+      "id": "MvjuIrQ3rKM"
+    }
+  ],
+  "transactions": [
+    {
+      "bookId": "4",
+      "memberId": "1",
+      "issueDate": "2026-10-26",
+      "dueDate": "2026-11-09",
+      "returnDate": "2026-10-26",
+      "status": "Returned",
+      "id": "Aeu4Zh8x6EA"
+    },
+    {
+      "bookId": "NIeaI4-VHiM",
+      "memberId": "3",
+      "issueDate": "2026-10-26",
+      "dueDate": "2026-11-09",
+      "returnDate": "2026-10-26",
+      "status": "Returned",
+      "id": "IF_CcglZVSk"
+    },
+    {
+      "bookId": "2",
+      "memberId": "MvjuIrQ3rKM",
+      "issueDate": "2026-10-20",
+      "dueDate": "2026-10-25",
+      "returnDate": "2026-10-26",
+      "status": "Returned",
+      "id": "s4XvRy___Eo"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
