@@ -399,7 +399,7 @@ export default function Members() {
                     <input
                       type="text"
                       className={`form-control ${formErrors.name ? 'error' : ''}`}
-                      placeholder="e.g. Aashi Kumar"
+                      placeholder="e.g. Aashish Kumar"
                       value={formData.name}
                       onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                     />
@@ -413,7 +413,7 @@ export default function Members() {
                     <input
                       type="email"
                       className={`form-control ${formErrors.email ? 'error' : ''}`}
-                      placeholder="e.g. aashi@university.edu"
+                      placeholder="e.g. aashish@university.edu"
                       value={formData.email}
                       onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                     />
@@ -429,6 +429,8 @@ export default function Members() {
                       className={`form-control ${formErrors.phone ? 'error' : ''}`}
                       placeholder="e.g. 9876543210"
                       value={formData.phone}
+                       maxLength={10}
+                       inputMode="numeric"
                       onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                     />
                     {formErrors.phone && <div className="form-error">{formErrors.phone}</div>}
